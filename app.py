@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, session, f
 from functools import wraps
 
 app = Flask(__name__)
-app.secret_key = 'gabriela123.'
+app.secret_key = 'gabriela1234.'
 
 # Simulacion de una base de datos de usuarios
 users = {
